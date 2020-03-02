@@ -1,4 +1,5 @@
 # offerLearning
+#git简单操作学习
 本地新建分支              git branch develop
 提交本地新建分支到远端    git pull origin develop
 切换到该分支              git checkout develop
