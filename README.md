@@ -19,4 +19,8 @@ push到主分支              git push
  问：执行git push出现"Everything up-to-date"
  答：没有执行git add .   和 git commit -m 'XXXX'
      如果两个命令都执行，那么就是创建的目录是空的，目录下必须有文件才能git push成功
+ 问：merge到master分支后如何回滚
+ 答：先查看merge操作的上一个提交记录的版本号  git reflog
+     找到“moving from develop to master”这条记录的版本号
+     git reset --hard 版本号   就可以回滚到merge之前的状态
   
