@@ -13,7 +13,7 @@ push代码                  git push origin develop
 合并到主分支              git merge master
 push到主分支              git push
 将本地分支develop与远端映射      git branch --set-upstream-to origin/develop
-合并分支develop到当前分支        git merger origin develop
+合并分支develop到当前分支        git merge origin develop
 
  git 常见问题：
  问：执行git push出现"Everything up-to-date"
