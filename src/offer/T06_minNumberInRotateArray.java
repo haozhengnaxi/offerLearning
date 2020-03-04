@@ -6,7 +6,7 @@
 public class T06_minNumberInRotateArray {
     public int minNumberInRotateArray(int [] array) {
         if (array == null || array.length == 0)
-            return ;
+            return 0;
         int high = array.length - 1;
         int low = 0;
         int mid = 0;
