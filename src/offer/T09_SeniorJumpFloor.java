@@ -5,7 +5,12 @@ package offer;
  * @Date: 2020/3/8 22:16
  * @Version 1.0
  */
-public class T09_SeniorJumpFloor (int target) {
+public class T09_SeniorJumpFloor{
+    public static void main(String[]args) {
+            T09_SeniorJumpFloor test = new T09_SeniorJumpFloor();
+
+        }
+
     if (0 == target || 1 == target) {
         return 1;
         }

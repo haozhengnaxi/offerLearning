@@ -133,7 +133,11 @@ public class Solution {
 //        System.out.println(ss);
         String s = "rat";
         String ss = test.sortString(s);
-        System.out.println(ss);
+//        System.out.println(ss);
+
+        int a = 1;
+        double b = 1.32232;
+        System.out.println(a + b);
     }
 
 }
